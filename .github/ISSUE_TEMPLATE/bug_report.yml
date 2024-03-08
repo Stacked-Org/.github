@@ -14,13 +14,30 @@ body:
     description: A clear and concise description of what the bug is.
   validations:
     required: true
+- type: dropdown
+  id: operative_system
+  attributes:
+    label: What operating system do you use?
+    options:
+      - Linux
+      - macOS
+      - Windows
+  validations:
+    required: true
+- type: textarea
+  id: flutter_doctor
+  attributes:
+    label: Information about the installed tooling
+    description: |
+      Copy the output of `flutter doctor -v` command in this text area.
 - type: textarea
   id: reproduce
   attributes:
-    label: To reproduce
-    description: Steps to reproduce the behaviour
+    label: Steps to reproduce the issue
+    description: |
+      Please tell us exactly how to reproduce your issue.
+      Provide clear and concise step by step instructions and add code snippets if needed.
     placeholder: |
-      Steps to reproduce the behavior:
       1. Go to '...'
       2. Click on '....'
       3. Scroll down to '....'

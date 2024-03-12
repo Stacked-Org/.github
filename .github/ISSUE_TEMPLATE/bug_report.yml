@@ -14,13 +14,32 @@ body:
     description: A clear and concise description of what the bug is.
   validations:
     required: true
+- type: dropdown
+  id: operative_system
+  attributes:
+    label: What operating system do you use?
+    options:
+      - Linux
+      - macOS
+      - Windows
+  validations:
+    required: true
+- type: textarea
+  id: flutter_doctor
+  attributes:
+    label: Information about the installed tooling
+    description: |
+      Copy the output of "flutter doctor -v" command in this text area.
 - type: textarea
   id: reproduce
   attributes:
-    label: To reproduce
-    description: Steps to reproduce the behaviour
+    label: Steps to reproduce the issue
+    description: |
+      You can help this issue get fixed faster by doing one of the following:
+
+        1. Provide us with an example project that reproduces the issue
+        2. Provide us with clear step-by-step instructions and code snippets for us to reproduce the issue
     placeholder: |
-      Steps to reproduce the behavior:
       1. Go to '...'
       2. Click on '....'
       3. Scroll down to '....'
@@ -41,4 +60,4 @@ body:
   id: additional
   attributes:
     label: Additional Context
-    description: Please add any other infos that could be useful.
+    description: Please add any other info that could be useful.

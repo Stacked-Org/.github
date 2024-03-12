@@ -35,8 +35,10 @@ body:
   attributes:
     label: Steps to reproduce the issue
     description: |
-      Please tell us exactly how to reproduce your issue.
-      Provide clear and concise step by step instructions and add code snippets if needed.
+      You can help this issue get fixed faster by doing one of the following:
+
+      1. Provide us with an example project that reproduces the issue
+      2. Provide us with clear step-by-step instructions and code snippets for us to reproduce the issue
     placeholder: |
       1. Go to '...'
       2. Click on '....'
@@ -58,4 +60,4 @@ body:
   id: additional
   attributes:
     label: Additional Context
-    description: Please add any other infos that could be useful.
+    description: Please add any other info that could be useful.

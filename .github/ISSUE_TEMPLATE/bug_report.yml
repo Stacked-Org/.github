@@ -29,7 +29,7 @@ body:
   attributes:
     label: Information about the installed tooling
     description: |
-      Copy the output of `flutter doctor -v` command in this text area.
+      Copy the output of [flutter doctor -v] command in this text area.
 - type: textarea
   id: reproduce
   attributes:
@@ -37,8 +37,8 @@ body:
     description: |
       You can help this issue get fixed faster by doing one of the following:
 
-      1. Provide us with an example project that reproduces the issue
-      2. Provide us with clear step-by-step instructions and code snippets for us to reproduce the issue
+        1. Provide us with an example project that reproduces the issue
+        2. Provide us with clear step-by-step instructions and code snippets for us to reproduce the issue
     placeholder: |
       1. Go to '...'
       2. Click on '....'
